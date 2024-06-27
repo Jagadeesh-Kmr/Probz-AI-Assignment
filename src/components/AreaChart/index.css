@@ -1,0 +1,57 @@
+.areaH1 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-size: 600;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.updateP {
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.updateBtn {
+  width: 70px;
+  height: 42px;
+  top: 466px;
+  left: 361px;
+  gap: 4px;
+  opacity: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.viewSpan {
+  color: #566bc9;
+}
+
+@media screen and (min-width: 768px) {
+  .areaH1 {
+    font-size: 35px;
+  }
+
+  .updateP {
+    font-size: 20px;
+  }
+
+  .updateBtn {
+    width: 110px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

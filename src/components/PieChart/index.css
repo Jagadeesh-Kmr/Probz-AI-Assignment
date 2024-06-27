@@ -1,0 +1,13 @@
+.pie-h1 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .pie-h1 {
+    font-size: 25px;
+  }
+}
