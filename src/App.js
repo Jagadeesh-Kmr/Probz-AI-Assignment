@@ -10,7 +10,7 @@ const App = () => (
     <Header />
     <div className="chart-bg">
       <Switch>
-        <Route path="/area-chart-monthly" component={AreaChart} />
+        <Route path="/area-chart" component={AreaChart} />
         <Route path="/pie-chart" component={PieChart} />
       </Switch>
     </div>

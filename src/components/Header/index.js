@@ -8,8 +8,8 @@ const Header = () => (
       <div className="nav-bar-large-container">
         <ul className="nav-menu">
           <li className="nav-menu-item">
-            <Link to="/area-chart-monthly" className="nav-link">
-              Line Chart
+            <Link to="/area-chart" className="nav-link">
+              Area Chart
             </Link>
           </li>
 
@@ -24,8 +24,8 @@ const Header = () => (
     <div className="nav-menu-mobile">
       <ul className="nav-menu-list-mobile">
         <li className="nav-menu-item-mobile">
-          <Link to="/area-chart-monthly" className="nav-link">
-            Line Chart
+          <Link to="/area-chart" className="nav-link">
+            Area Chart
           </Link>
         </li>
 

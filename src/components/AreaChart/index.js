@@ -237,7 +237,7 @@ const RenderLineChart = () => {
   return (
     <>
       <h1 className="areaH1">
-        Line Chart With Coding Drafts <span className="viewSpan">{view}</span>{' '}
+        Area Chart With Coding Drafts <span className="viewSpan">{view}</span>{' '}
         view
       </h1>
       <p className="updateP">For {updatedView} update click the below button</p>
