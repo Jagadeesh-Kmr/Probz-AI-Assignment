@@ -1,35 +1,26 @@
 
 # Project-Details
 
-Constructed an all-in-one job searching platform, Jobby App.
+Constructed an React.js application that displays a chart using a charting library.
 
-● Built pages for Login, Home, Jobs, Job item details and Application Form with React components, form inputs, and event
+● Built pages for AreaChart, Piechart and Header with React components, and event
   handlers.
 
-● Ensured secure authentication with JWT tokens and REST API calls.
-
-● Persisted login state with local storage and protected routes with React Router.
-
-Technologies used: React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token,
-Authorization, Authentication
-
+Technologies used: React JS, React Hooks, Recharts, JS, CSS, Routing.
 
 
 #Project-Explanation
 
-● Note: Only authorized users are able to search for jobs. You need to login before searching for jobs. 
+Note: Users can use this application on both mobile and desktop.
 
-  - Login Route
-    - Users can only login to the website by entering a valid username and password.
-    - Valid username: rahul and password: rahul@2021.
-    
-  - Job Route
-    - Users can navigate to Home, job routes using links in the Navbar.
-    - Users can also navigate to Home route by clicking on **Jobby App** logo.
-    - Users can use the filter options and search bar to search any particular job.
-    - After clicking "Click to Apply" button, An Application will be displayd with Name, Email and Cover Letter.
+  - Header
+    - Users can navigate to Area chart and Pie chart by clicking on Header Links(Area Chart/Pie Chart).
+   
+  - AreaChart Component
+    - AreaChart component will display the Area chart with monthly or weekly data.
+    - After clicking on "Monthly" button, Area chart with monthly Data will be displayed.
+    - After clicking on "Weekly" button, Area chart with weekly Data will be displayed.
 
- - Application Form
-    - After entering form details and clicking on "Submit" button, Entered details will be displayed below.
-    - After clicking on the below "Submit" button "Application Successful" message will be displayed.
-
+ - PieChart Component
+    -  PieChart component will display the Pie chart.
+   
